@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+google_analytics: UA-163385026-1
+
 encoding: ENCODING 
 permalink: /:categories/:title:output_ext
 tags:
