@@ -29,7 +29,7 @@ description:
   En este canal vamos a hablar de política, arte, América Latina, España, feminismo, poscolonialismo y lo que vaya saliendo.
   Me inspiro en el trabajo de Shaun, Contrapoints, Angie Speaks, Jack Saint y otros canales de breadtube.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https//chinicuil.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chini_cuil
 # github_username:  somoschinicuil
 instagram_username: chini_cuil
@@ -39,7 +39,6 @@ youtube_username:  chinicuil
 # theme: minima Custom theme
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
