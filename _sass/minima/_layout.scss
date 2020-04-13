@@ -272,7 +272,9 @@
       @include relative-font-size(1.125);
     }
   }
+}
 
+.article-content {
   img {
     display: block;
     margin: 1rem 0 1rem;
@@ -280,7 +282,7 @@
 }
 
 /**
- * Posts
+ * Card
  */
 .card {
   border: 1px solid $brand-color;
@@ -328,7 +330,7 @@
   margin: 0;
   li {
     list-style: none;
-    margin: 0 1% 0;
-    max-width: 30%;
+    margin: 0 1rem 1rem 0;
+    max-width: calc(33% - 1rem);
   }
 }
