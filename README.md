@@ -1,4 +1,4 @@
-# Webiste de Chinicuil 
+# Webiste de Chinicuil 2.0
 
 https://somoschinicuil.github.io/
 
