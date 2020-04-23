@@ -1,0 +1,34 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list footer-links">
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-5">
+        {%- include social.html -%}
+      </div>
+    </div>
+
+    <ul class="contact-list footer-links">
+      {% for page in site.pages %}
+          {% if page.exclude %}
+            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+              {{ page.title }}
+            </a></li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+
+  </div>
+
+</footer>
