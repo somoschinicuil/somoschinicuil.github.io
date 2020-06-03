@@ -8,7 +8,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Últimas noticias" }}</h2>
+    <p class="h3"><strong>{{ page.list_title | default: "Últimas noticias" }}</strong></p>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
