@@ -9,7 +9,7 @@ dl, dd, ol, ul, figure {
 }
 
 hr {
-  background-color: $text-color;
+  background-color: $grey-color-light;
   border: 0;
   height: 1px;
   margin: 3rem auto;
@@ -46,6 +46,13 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+.text-center {
+  text-align: center;
+}
+.inverted {
+  display: inline-block;
+  transform: rotate(180deg);
+}
 
 
 /**
@@ -136,7 +143,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  color: #aaa;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
@@ -198,6 +205,22 @@ pre {
   }
 }
 
+.wrapper-smol {
+  max-width: -webkit-calc(#{$content-width-smol} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width-smol} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width-smol} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width-smol} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }  
+}
 
 
 /**
@@ -219,7 +242,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$grey-color-light};
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -257,5 +280,31 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+  }
+}
+
+/**
+ * Grid
+ */
+
+ @media (min-width: $on-laptop){ 
+  .row {  
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  .col-80 { 
+    width:80% 
+  }
+  .col-70 { 
+    width:70% 
+  }
+  .col-50 { 
+    width:50% 
+  }
+  .col-30 { 
+    width:30% 
+  }
+  .col-20 { 
+    width:20% 
   }
 }

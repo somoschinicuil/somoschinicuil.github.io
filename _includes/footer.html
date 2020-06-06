@@ -3,10 +3,13 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+    <p class="text-center">
+      <img src="{{ "/assets/img/avatar.jpg" | relative_url }}" alt="{{ post.title | escape }}" class="logo"> <br>
+      <small>{{ site.title | escape }} {{ 'now' | date: "%Y" }} <span class="inverted">©</span></small>
+    </p>
+    
+    <div class="footer-col-wrapper row">
+      <div class="footer-col footer-col-1 col-30">
         <ul class="contact-list footer-links">
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -14,12 +17,12 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-5">
+      <div class="footer-col footer-col-5 col-70">
         {%- include social.html -%}
       </div>
     </div>
 
-    <ul class="contact-list footer-links">
+    <ul class="contact-list footer-links tags-footer text-center">
       {% for page in site.pages %}
           {% if page.exclude %}
             <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
