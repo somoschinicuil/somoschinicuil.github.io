@@ -10,21 +10,22 @@ $base-line-height: 1.6 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
+$text-color:       #fefefe !default;
+$background-color: #111 !default;
 $brand-color:      #00b1d9 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color:       #111 !default;
+$grey-color-light: lighten($grey-color, 25%) !default;
+$grey-color-dark:  darken($grey-color, 10%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    750px !default;
+$content-width:    1200px !default;
+$content-width-smol: 780px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        850px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
