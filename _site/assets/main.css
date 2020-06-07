@@ -93,7 +93,7 @@ table td { border: 1px solid #515151; }
 @media screen and (max-width: 600px) { .site-header { text-align: initial; } }
 
 .site-title { color: #fefefe; }
-@media screen and (max-width: 600px) { .site-title { float: left; margin: 0.5rem 0 0; }
+@media screen and (max-width: 600px) { .site-title { float: left; }
   .site-title img { max-width: 36px; } }
 
 .logo { border-radius: 50%; max-width: 50px; transition: 0.4s; }
@@ -119,12 +119,14 @@ table td { border: 1px solid #515151; }
 
 /** Site footer */
 .site-footer { border-top: 1px solid #515151; padding: 30px 0; }
+@media screen and (max-width: 600px) { .site-footer .row { display: block; }
+  .site-footer .col-30, .site-footer .col-70 { width: 100%; } }
 
 .footer-heading { font-size: 20.25px; margin-bottom: 15px; }
 
 .footer-links { font-size: 0.9rem; list-style: none; margin-left: 0; }
 .footer-links li { display: inline; margin-right: 1rem; }
-@media screen and (max-width: 600px) { .footer-links li { display: block; margin-bottom: 0.5rem; } }
+@media screen and (max-width: 600px) { .footer-links li { display: block; margin-bottom: 0.5rem; text-align: center !important; } }
 
 .social-media-list { text-align: right; }
 

@@ -24,7 +24,6 @@
 
   @include media-query($on-palm) {
     float: left;
-    margin: 0.5rem 0 0;
     img {
       max-width: 36px;
     }
@@ -137,6 +136,15 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  @include media-query($on-palm) {
+    .row {
+      display: block;
+    }
+    .col-30,
+    .col-70 {
+      width: 100%
+    }
+  }
 }
 
 .footer-heading {
@@ -154,6 +162,7 @@
     @include media-query($on-palm) {
       display: block;
       margin-bottom: 0.5rem;
+      text-align: center!important;
     }
   }
 }
