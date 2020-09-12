@@ -2,25 +2,21 @@
 layout: default
 ---
 <div class="home">
-    {% for post in site.posts limit:1 %}
     <div class="banner">
       <h2>
-        <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-        </a>
+        {{ page.dopetitle | escape }}
       </h2>
       <h3>Chinicuil</h3>
       <div class="video">
-        <iframe src="https://www.youtube.com/embed/{{ post.urlVideo }}" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/{{ page.highlight }}" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <hr>
-    {% endfor %}
 
     {{ content }}
 
     {%- if site.posts.size > 0 -%}
-      <p class="h3"><strong>{{ page.list_title | default: "Últimas noticias" }}</strong></p>
+      <p class="h3"><strong>{{ page.list_title | default: "Videos de este Chinicuil con contenido izquierdoso" }}</strong></p>
       <ul class="post-list">
         {%- for post in site.posts -%}
         <li class="snippet">
