@@ -75,7 +75,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Tables */
 table { margin-bottom: 30px; width: 100%; text-align: left; color: white; border-collapse: collapse; border: 1px solid #515151; }
-table tr:nth-child(even) { background-color: #606060; }
 table th, table td { padding: 10px 15px; }
 table th { background-color: #585858; border: 1px solid #474747; border-bottom-color: #323232; }
 table td { border: 1px solid #515151; }
