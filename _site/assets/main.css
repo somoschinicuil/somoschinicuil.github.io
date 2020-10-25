@@ -46,6 +46,10 @@ a:hover { color: #fefefe; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
+.mini { color: #fefefe; font-size: 0.8rem; position: relative; top: -0.5em; }
+
+a.mini { color: #00b1d9; }
+
 /** Blockquotes */
 blockquote { color: #aaa; border-left: 4px solid #515151; padding-left: 15px; font-size: 20.25px; letter-spacing: -1px; font-style: italic; }
 blockquote > :last-child { margin-bottom: 0; }
