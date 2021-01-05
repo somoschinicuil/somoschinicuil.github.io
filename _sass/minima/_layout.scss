@@ -3,7 +3,7 @@
  */
 .site-header {
   line-height: $base-line-height * $base-font-size * 2.25;
-  border-bottom: 1px solid $grey-color-light;
+  // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   padding-bottom: $spacing-unit;
   padding-top: $spacing-unit;
@@ -18,25 +18,29 @@
   }
   
 }
+.logo-icon {
+  width: 200px;
+}
 
 .site-title {
   color: $text-color;
 
   @include media-query($on-palm) {
     float: left;
-    img {
-      max-width: 36px;
-    }
   }
 }
 .logo {
   border-radius: 50%;
-  max-width: 50px;
+  width: 100%;
+  max-width: 200px;
   transition: 0.4s;
   &:hover {
     box-sizing: border-box;
     border: 4px solid $brand-color
   }
+}
+.main-quote {
+  padding: 2rem 0 0 1rem;
 }
 
 .page-heading {
@@ -175,7 +179,6 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
   @extend %clearfix;
 }
 
