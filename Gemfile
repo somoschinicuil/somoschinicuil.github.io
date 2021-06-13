@@ -9,7 +9,7 @@ group: :jekyll_plugins
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3.9"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5" Custom theme
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -33,3 +33,5 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 
 gem "webrick", "~> 1.7"
+
+gem "kramdown-parser-gfm"
