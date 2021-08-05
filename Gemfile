@@ -10,6 +10,10 @@ group: :jekyll_plugins
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
+
+
+gem "addressable", ">= 2.8.0"
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5" Custom theme
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
