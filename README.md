@@ -1,4 +1,5 @@
-# Webiste de Chinicuil 2.0
+# Webiste de Chinicuil 3.0
+Estoy empezando de cero porque los packages de Jekyll se estan poniendo muy intensos. Deseenme suerte. Besis
 
 https://somoschinicuil.github.io/
 
