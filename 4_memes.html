@@ -1,0 +1,12 @@
+---
+layout: page
+title: Memes
+permalink: /memes/
+---
+<ul class="img-grid">
+{% for image in site.static_files %}
+    {% if image.path contains 'img/memes' %}
+        <li><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></li>
+    {% endif %}
+{% endfor %}
+</ul>
