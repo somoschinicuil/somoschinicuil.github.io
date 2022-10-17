@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="home">
+    <div class="banner">
+      <h2>
+        {{ page.dopetitle | escape }}
+      </h2>
+      <h3>{{ page.dopesubtitle | escape }}</h3>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/{{ page.highlight }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <hr>
+
+    {{ content }}
+
+    {%- if site.posts.size > 0 -%}
+      <p class="h3"><strong>{{ page.list_title | default: "Videos de este Chinicuil con contenido izquierdoso" }}</strong></p>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li class="snippet">
+          <h3 class="snippet-title">
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          <p>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }} | {{ site.title | escape }}</span></p>
+          <!-- {%- if post.thumbVideo -%}
+            <a href="{{ post.url | relative_url }}">
+              <img src="/assets/img/thumbs/chinicuil-youtuber-{{ post.thumbVideo }}.jpg" alt="{{ post.title | escape }}">
+            </a>
+          {%- endif -%} -->
+          {%- if post.description -%}
+            {{ post.description }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+
+</div>
