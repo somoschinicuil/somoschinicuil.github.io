@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-31T16:52:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chinicuil youtuber</title><subtitle>Hola, para todos aquellos que no me conozcan somos el Chinicuil. En este canal vamos a hablar de política, anarquismo, feminismo, arte, América Latina, España, poscolonialismo y lo que vaya saliendo.</subtitle><entry><title type="html">Asi funciona la guerra cultural</title><link href="http://localhost:4000/guerra-cultural.html" rel="alternate" type="text/html" title="Asi funciona la guerra cultural" /><published>2022-10-30T06:00:00+01:00</published><updated>2022-10-30T06:00:00+01:00</updated><id>http://localhost:4000/guerra-cultural</id><content type="html" xml:base="http://localhost:4000/guerra-cultural.html">&lt;figure class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-12T22:09:50+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chinicuil youtuber</title><subtitle>Hola, para todos aquellos que no me conozcan somos el Chinicuil. En este canal vamos a hablar de política, anarquismo, feminismo, arte, América Latina, España, poscolonialismo y lo que vaya saliendo.</subtitle><entry><title type="html">La automatización del arte</title><link href="http://localhost:4000/arte-inteligencia-artificial.html" rel="alternate" type="text/html" title="La automatización del arte" /><published>2022-12-12T06:00:00+01:00</published><updated>2022-12-12T06:00:00+01:00</updated><id>http://localhost:4000/arte-inteligencia-artificial</id><content type="html" xml:base="http://localhost:4000/arte-inteligencia-artificial.html">&lt;figure class=&quot;card&quot;&gt;
+    
+    
+    
+    
+    &lt;span class=&quot;card-icon&quot;&gt;&lt;svg class=&quot;svg-icon&quot;&gt;&lt;use xlink:href=&quot;/assets/minima-social-icons.svg#youtube&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;a href=&quot;https://youtube.com/shorts/qVUIFN0B2Fs?feature=share&quot; target=&quot;_blank&quot;&gt;
+        &lt;span class=&quot;h3&quot;&gt;La automatización del arte &lt;strong&gt;&lt;small&gt;&lt;/small&gt;&lt;/strong&gt;&lt;/span&gt; 
+        &lt;span class=&quot;content&quot;&gt;Link al video en youtube shorts&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Intentaré explicar en menos de dos minutos algunos de los problemas éticos con Dall-e stable difusion y otras inteligencias artificiales que generan increíbles ilustraciones.&lt;/p&gt;
+
+&lt;p&gt;Si no sabes de qué hablo: MUY MUY en resumen hay un grupo de compañías que desarrollan inteligencias artificiales que funcionan analizando muchísimas imágenes, luego pueden relacionar formas, colores y estilos por un sofisticado proceso conocido como entrenamiento, gracias a esto pueden generar imágenes originales a partir de un texto...cualquier texto…por más raro y específico que sea&lt;/p&gt;
+    
+&lt;p&gt;Para entrenar estas inteligencias se deben reunir miles e incluso millones de ilustraciones y muchos datos apuntan a que estas imágenes fueron extraídas sin el consentimiento de los artistas. Y esto no es igual a un artista inspirándose en otro para crear su obra, son empresas usando sistemáticamente el trabajo de miles de artistas para crear una tecnología con un uso comercial.&lt;/p&gt;
+    
+&lt;p&gt;El objetivo de la mayoría de estas empresas es reemplazar el trabajo de los artistas para abaratar los costes de crear una ilustración, y las ilustraciones que generan son lo suficientemente buenas como para competir con muchos artistas y solo se van a hacer mejores.
+    Por poner un ejemplo tal vez un poco exagerado, son como los automóviles, no los crearon para mejorar el trabajo de los caballos, sino para reemplazar el trabajo que hacían.&lt;/p&gt;
+    
+&lt;p&gt;No solo es jodido por el plagio y la inminente pérdida de miles de trabajos, tambien es jodido que estamos automatizando una de las partes más fundamentales de la experiencia del ser humano: El arte, de todas las labores terribles y monótonas que podemos automatizar, estamos automatizando la creación de arte, es increíble y aterrador &lt;/p&gt;
+    
+&lt;p&gt; Estas tecnologías no se van a ir a ningún lado y este tipo de conversaciones las tenemos que tener YA, y buscar una solución. Si quieres saber más te recomiendo escuchar a los artistas Steven Zapata y a Karla Ortiz, que abordan este tema con más profundidad y proponen cómo nos podemos organizar.&lt;/p&gt;
+    
+&lt;h3&gt;Fuentes&lt;/h3&gt;
+&lt;h4&gt;Steven Zapata y Karla Ortiz&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/tjSxFAGP9Ss&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Steven Zapata: The End of Art&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kortizart/status/1512282669660266498?lang=es&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Karla Ortiz: Hilo twitter sobre el tema legal de las AIs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/Nn_w3MnCyDY&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Conversación super buena entre Karla Ortiz, Steven Zapata y Stan Prokopenko&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/LYO9sii1eKA&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;AI Town hall hosted by Karla Ortiz &amp; Concept Art Association&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Cuestiones éticas en las inteligencias artificiales&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://edition.cnn.com/2022/10/21/tech/artists-ai-images/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;These artists found out their work was used to train AI. Now they’re furious&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.techtarget.com/searchenterpriseai/feature/The-creative-thief-AI-tools-creating-generated-art&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;The creative thief: AI tools creating generated art&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vice.com/en/article/93ad75/isis-executions-and-non-consensual-porn-are-powering-ai-art&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;ISIS Executions and Non-Consensual Porn Are Powering AI Art&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://weirdwonderfulai.art/resources/disco-diffusion-70-plus-artist-studies/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Artistas incluídos en Disco diffusion (Seguramente sin su consentimiento)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/7Pq-S557XQU&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Humans Need Not Apply&lt;/a&gt; Los peligros reales de las inteligencias artificiales&lt;/p&gt;
+
+&lt;h4&gt;Cómo funcionan las inteligencias artificiales&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://wandb.ai/dalle-mini/dalle-mini/reports/DALL-E-mini-Generate-Images-from-Any-Text-Prompt--VmlldzoyMDE4NDAy&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Cómo funciona Dall-E &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/1CIpzeNxIhU&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recursos muy interesantes&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://haveibeentrained.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Have i been trained&lt;/a&gt; Descubre si han usado tu contenido para entrenar alguna inteligencia artificial&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1912.03817&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Machine Unlearning&lt;/a&gt; Cómo sustraer contenido específico aprendido por un algoritmo.&lt;/p&gt;</content><author><name></name></author><category term="minicuil" /><category term="arte" /><category term="justicia" /><summary type="html">La automatización del arte Link al video en youtube shorts</summary></entry><entry><title type="html">¿Por qué los billonarios no deberían existir?</title><link href="http://localhost:4000/mini-billonarios.html" rel="alternate" type="text/html" title="¿Por qué los billonarios no deberían existir?" /><published>2022-11-09T06:00:00+01:00</published><updated>2022-11-09T06:00:00+01:00</updated><id>http://localhost:4000/mini-billonarios</id><content type="html" xml:base="http://localhost:4000/mini-billonarios.html">&lt;figure class=&quot;card&quot;&gt;
+    
+    
+    
+    
+    &lt;span class=&quot;card-icon&quot;&gt;&lt;svg class=&quot;svg-icon&quot;&gt;&lt;use xlink:href=&quot;/assets/minima-social-icons.svg#youtube&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;a href=&quot;https://youtube.com/shorts/h786qpLyZh0?feature=share&quot; target=&quot;_blank&quot;&gt;
+        &lt;span class=&quot;h3&quot;&gt;¿Por qué los billonarios no deberían existir? &lt;strong&gt;&lt;small&gt;&lt;/small&gt;&lt;/strong&gt;&lt;/span&gt; 
+        &lt;span class=&quot;content&quot;&gt;Link al video en youtube shorts&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Pero antes de entrar en materia tenemos que aclarar qué es un billón de dólares
+    Clip de la RAE hablando en español de España: Realmente billón es en inglés porque en español serían un millardo
+    &lt;/p&gt; &lt;p&gt;&lt;strong&gt;Pero nadie usa millardo perdedor&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Es muy fácil confundir a un millonario con un billonario. Un billonario es que tiene más de mil millones de dólares y para tener mil millones de dólares tendríamos que juntar el valor neto de Neymar, PewDiePie, Emma Watson, Bad Bunny y Ariana Grande y El Príncipe Harry,  Scarlett Johansson, Billie Eilish, J Balvin, Luisito comunica, el Rubius e Ibai y todavía nos faltaría dinero para alcanzar el billón de dólares&lt;/p&gt;
+&lt;p&gt;Tener un billón de dólares en la economía actual literalmente es tener mil veces el poder y la influencia de un millonario, es el poder del 1% del 1%.&lt;/p&gt;
+&lt;p&gt;Los billonarios y sus empresas un peligro para la democracia porque usan este poder e influencia para manipular la ley y la economía que nos afecta al resto de la población&lt;/p&gt;
+
+&lt;h3&gt;Fuentes y referencias&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.celebritynetworth.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Datos sobre el valor neto de los famosos y billonarios&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.elfinanciero.com.mx/economia/2021/12/07/distribucion-de-la-riqueza-de-mexico-50-de-la-poblacion-pobre-tiene-mas-deudas-que-bienes&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Salario promedio de una familia mexicana&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bbc.com/mundo/noticias-56734297&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;La &quot;élite contaminante&quot;: cómo los más ricos están en &quot;el centro del problema del clima&quot;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bbc.com/mundo/noticias-58797325&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Pandora Papers: qué es la &quot;corrupción legal&quot;, el mecanismo que utilizan políticos y empresarios para esconder millones de dólares al año en paraísos fiscales&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.businessinsider.com/aerial-drone-photos-mumbai-extreme-wealth-slums-2018-9&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Drone photos of Mumbai reveal the places where extreme poverty meets extreme wealth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.freepressjournal.in/analysis/inequality-kills-close-chasm-between-mumbais-wealthiest-and-poorest&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Inequality kills. Close chasm between Mumbai&apos;s wealthiest and poorest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bbc.com/mundo/noticias-56734297&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;El desafío de Coca Cola, considerada el mayor contaminante de plásticos del mundo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.france24.com/es/programas/medio-ambiente/20210324-millonarios-lucha-cambio-clim%C3%A1tico-musk-bezos&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;La contradicción de los multimillonarios que luchan contra el cambio climático&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bbc.com/mundo/noticias/2016/04/160404_panama_papers_documentos_activos_escondidos_evasion_fiscal_ms&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Panamá Papers: 6 formas en las que los ricos y poderosos esconden riquezas y evaden impuestos&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="minicuil" /><category term="economia" /><category term="breadtube" /><category term="justicia" /><summary type="html">¿Por qué los billonarios no deberían existir? Link al video en youtube shorts</summary></entry><entry><title type="html">Asi funciona la guerra cultural</title><link href="http://localhost:4000/guerra-cultural.html" rel="alternate" type="text/html" title="Asi funciona la guerra cultural" /><published>2022-10-30T06:00:00+01:00</published><updated>2022-10-30T06:00:00+01:00</updated><id>http://localhost:4000/guerra-cultural</id><content type="html" xml:base="http://localhost:4000/guerra-cultural.html">&lt;figure class=&quot;card&quot;&gt;
     
     
     
@@ -504,285 +580,4 @@ Dejo todos los links en la descripción
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/Y-Y6fhVZOcM&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Tesis sobre la historia - Walter Benjamin&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Si quieres la paz, desafía la guerra | Socialismo linertario No. 145 https://www.socialismolibertario.org/&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.marxists.org/espanol/liebknecht/1915/mayo/00001.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;El enemigo principal está en casa - Karl Liebknecht&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=02BnXTTxfxA&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;LA GUERRA PERMANENTE&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="breadtube" /><category term="anarquia" /><summary type="html">Hola que tal muy buenas y bienvenides a Chinicuil, el día de hoy vamos a hablar de este comic de 1986 que se llama Watchmen, en este cómic habla de muchas cosas, pero principalmente habla de dos cosas superhéroes en decadencia y de capa caída Gracias estoy aqui todos los días Y de los relojes y el tiempo,</summary></entry><entry><title type="html">No me interesa la política</title><link href="http://localhost:4000/politico.html" rel="alternate" type="text/html" title="No me interesa la política" /><published>2022-03-10T10:00:00+01:00</published><updated>2022-03-10T10:00:00+01:00</updated><id>http://localhost:4000/politico</id><content type="html" xml:base="http://localhost:4000/politico.html">&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt;  El año es Chinicuil 2010, la ciudad es un lugar ruidoso y húmedo, que huele a una mezcla de comida frita de baja calidad y a cloacas…y saben qué más huele a cloacas: la política.
-    Esto no puede oler peor, corrupción, ineptitud y una maldad que parece salida de un comic de Frank Miller.&lt;/p&gt;
-&lt;p&gt;La política, no me interesa, y cuando me llega a interesar solo me encabrona, me enerva…asi es que prefiero que no me interese, por estos dos motivos:
-&lt;/p&gt;
-
-&lt;p&gt;La política la hacen personas desconectadas de la realidad, sólo se dedican a hacer negocios y a lucrar con el poder que tienen
-    La política es aburrida, son un montón de viejos que hablan mucho de la manera más lenta y tediosa posible
-    Hablan de cosas que a nadie le interesa y solo se dedican a pelearse entre ellos&lt;/p&gt;
-
-&lt;p&gt;La política no me interesa y la verdad que hueva hablar de política ufff, de hecho tanto hablar de política ya me dió acidez, acompáñenme en nuestro siguiente capítulo donde hablaremos del top 2 de porqué Justin Bieber es basura y discutiremos los factores que hacen de Tool la banda más épica
-&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;— Rayos y aparición del futuro —&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Uhhh?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; AHHHHHHHHHHHH&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Qué demonios?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Quien chingados eres?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Hola Chinicuil soy un robot enviado desde el futuro para aburrirte y luego deprimirte con una plática sobre política 
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Momento ¿Cómo sabes mi nombre y cómo sabes que me voy a aburrir?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Porque la persona que me programó eres tú del futuro… y por eso ya has tenido esta conversación en el futuro y recuerda que te aburriste
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Pero cómo es eso posible y ¿por qué estás desnudo?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Esto no es importante, de momento necesito que me escuches: creo que todas tus opiniones siguen siendo igual de válidas en mi presente que es el año 2022, que en realidad es tu futuro
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; uhhhh ok&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; En muchos sentidos sigues pensando igual que el chinicuil del futuro pero hay algunas cosas que deberías de empezar a matizar, porque la política no solo es esperar 4 o 5 años para votar por alguien, la política se construye día a día con tus amigos, tu familia, en tu trabajo, con tus vecinos
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Me aburroooooo!!!, ohhh tenías razón, wow! si vienes del futuro
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Te lo advertí. Para resumir solo quiero decir que la política está en todos lados, y nos afecta a todes
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Todes? Qué significa eso?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Es algo del futuro, el lenguaje de los humanos siguió evolucionando, así como en esta época se dice merol en vez de metal
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Jejejejeje Merol, sicierto&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Bueno ese no es el punto, el punto es que la política está en todos lados
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿En todos lados? Te refieres a que todos tenemos que votar y hablar de política en las cenas de navidad cuando nos volvemos mayores?
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Sí masomenos, a ver déjame ponerte un ejemplo: ¿Crees que la música es importante en nuestra sociedad?
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Sí&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Pues la política también está en la música&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Te refieres a Manu Chao?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; No exactamente, me refiero a que la música es muy importante en las sociedades humanas y a pesar de esto son muy pocos los músicos que tienen suficiente dinero para vivir una vida digna
-&lt;/p&gt;
-&lt;&lt;p&gt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Pero lo que ganan los músicos no lo regula el mercado? Quien tenga talento va a salir adelante y ganará dinero ¿no?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Tu realidad y la mía está constantemente dirigida por los deseos del mercado,
-y al mercado no le interesa tener más o mejor música si esto no se traduce en ganancias…
-porque el mercado representa los intereses de las discográficas o las empresas que controlan la distribución como spotify
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Chanfle, entonces las empresas como spotify no ayudaron a distribuir las ganancias que se quedaban las disqueras? 
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; No quiero deprimir tus sentimientos humanos  pero…. ¿Te acuerdas de todos tus amigos y familiares que son músicos?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Uff es cierto no me acordaba que casi todos ganan muy poco dinero de la música, pero seguro su talento los sacó adelante verdad?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Pues las cosas no cambiaron mucho, la gran mayoría de ellos no viven de la música y los que viven de la música viven muy apenitas y gracias a becas o a dar clases.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Pero entonces qué sugieres? Que los políticos son la respuesta a este problema, si esos cabrones solo saben robar
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; No,de hecho te propongo lo contrario
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Ahhh por eso debemos dejarlo en manos de los empresarios ¿Verdad?, las empresas siempre buscarán hacer esto de manera más eficiente.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; …silencio
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Ahhh verdaaaad te piñe pelmazo robotico del futuro.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Casi me da un ataque al sistema central, eres muy gracioso ha ha ha
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; A ver sí me queda claro que los empresarios buscarán ganar la mayor cantidad de dinero y que el bienestar de las personas tampoco les interesa mucho.
- Pero entonces qué podemos hacer para que los músicos puedan vivir de su trabajo ¿Votar a la izquierda?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt;  Ehhhh no quiero deprimir tus sentimientos humano 
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Oh mierda
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Todos los políticos están a favor de las empresas y la economía, los de derechas y los de izquierdas. 
-Los empresarios y los políticos están en el mismo bando y tu especie ha creado la ficción de que son dos fuerzas enfrentadas.
-La economía, el mercado y los políticos son partes de un mismo sistema.
-Y obvio, algunas de las acciones de la izquierda son mejores, pero sólo si las comparamos con las de la derecha.
-Los problemas de tu especie no se resolverán cambiando de políticos, el cambio llegará cambiando el sistema.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Entonces la política está en todos lados pero la política de los políticos es la que está jodida?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt;  Correcto
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Qué demonios es eso?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt;  No lo sé
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt;  Hola Chinicuil del pasado, hola yo del pasado futuro
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt;  Hola
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt;  ¿Quién eres?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt;  Soy un robot enviado desde el futuro para matizar aún más la conversación que están teniendo en estos momentos. Y me gustaría matizar esto de llamar política a toda actividad humana
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt;  ¿Qué chingados está sucediendo?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt;  Elabora, tienes toda mi atención
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt; Gracias camarada robótico, como iba diciendo: desde la izquierda existe la tendencia por llamar a todas las actividades sociales como política
-&lt;/p&gt;
-Y la política como la conocemos se conformó con los movimientos humanistas después de la revolución francesa y esta política es muy difícil separar de conceptos como estado, patriarcado, policía, ejército, colonialismo y capitalismo.
-Por lo que no es una locura que alguien piense que la política es algo que hacen los políticos en sus cúpulas de poder.
-
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; Pero está bien que cada vez más seres humanos estén involucrados en política ¿no?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt; Dependiendo a qué es lo que llamemos política, pero no necesariamente, déjame ponerte un ejemplo hipotético y enredado:
-&lt;/p&gt;
-&lt;p&gt;Para hacer política actualmente necesitamos dos o más fuerzas enfrentadas y solo habrá un grupo ganador y lo que este grupo ganador decida será lo que haga el perdedor. 
-&lt;/p&gt;
-&lt;p&gt;Si esto lo aplicamos a las políticas educativas, tenemos como resultado un sistema educativo que tiene que estarse modificando constantemente a los caprichos de los políticos que están en el poder y no un sistema educativo centrado en la educación.
-&lt;/p&gt;
-&lt;p&gt;Y la única esperanza de cambiarlo es que los maestros y gente especializada en educación se meta en política y el ciclo se vuelve a repetir. 
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt;  ¿Pero entonces la política no está en todos lados?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt; No realmente, y sería bueno dar pie a nuevas formas de organización que estén más centradas en reflexionar, en ser compasivos, y en cooperar
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot enero 2022:&lt;/strong&gt; ¿Entonces qué va a pasar con mi misión?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt; Que bueno que preguntas 
-*Di&lt;/p&gt;spara rayo y el otro androide desaparece*
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt;  No mames!!! ¿Lo mataste? ¿Qué chingados se significa todo esto?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Robot marzo 2023:&lt;/strong&gt;  Esto no es importante, el punto es que he sido enviado desde el futuro para que veas este pequeño video que hemos preparado
-&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h3&gt;Los anarconsejos con chinicuil:&lt;/h3&gt;
-&lt;p&gt;Hola y bienvenides a los Anarconsejos, una serie de consejos para poner en práctica los principios de acción directa, democracia directa y de resistencia contra el estado y el capitalismo.
-&lt;/p&gt;
-&lt;p&gt;El anarconsejo del día de hoy es buscar un grupo de interés.
-&lt;/p&gt;
-&lt;p&gt;Hay tantas cosas que están mal con el mundo que es muy fácil no saber por dónde empezar y quedarte paralizade, por lo que te recomendamos que un buen lugar para empezar buscar un grupo de interés.
-&lt;/p&gt;
-&lt;p&gt;Busca un tema que te afecte y busca grupos que intenten trabajar para resolver diceho problema . Yo, por ejemplo, soy un migrante desde hace varios años por lo que busqué grupos que trabajen sobre migración.
-&lt;/p&gt;
-
-&lt;p&gt;Pero seguro tú tienes otros temas en los que estás interesade. Ayudar a personas en situación de calle, problemas de género, derechos LGTBI, problemas laborales, feminismo, el cambio climático, y un larguísimo etc.
-&lt;/p&gt;
-
-&lt;p&gt;Si te centras en un tema en concreto será más fácil que encuentres grupos en los que puedas empezar a trabajar los temas que te interesan.
-&lt;/p&gt;
-&lt;p&gt;El primer paso es hablar sobre el tema que te interesa, investiga en internet, comentalo con las personas que te rodean y analiza cuál es la situación actual de tu barrio, ciudad o pueblo. 
-&lt;/p&gt;
-&lt;p&gt;Hablar con personas enriquece tu entendimiento sobre el tema que estás interesade y te dará ideas para saber por dónde concretamente puedes empezar.
-&lt;/p&gt;
-&lt;h4&gt;Tengo 6 recomendaciones cuando busques un grupo de interés:&lt;/h4&gt;
-&lt;ol&gt;
-    &lt;li&gt;Ser cuidadose de que el grupo en el que quieres participar no esté afiliado a algún partido político con el que no quieras estar involucrade, lo digo por experiencia propia, los partidos políticos siempre están buscando infiltrar grupos así es que mucho ojo.&lt;/li&gt;
-    &lt;li&gt;Ve a un par de reuniones y si no conectas con sus ideas no tienes por qué quedarte, no todos los grupos son para todos. 
-        No te comprometas con cosas que no te sientas cómode, es tu vida y tu tiempo.&lt;/li&gt;
-    &lt;li&gt;Sé muy claro con lo que puedes ofrecer y con lo que quieres hacer, si solo puedes dedicar una hora a la semana al grupo házlo saber, la base de una buena relación con tu grupo es la comunicación.
-    &lt;/li&gt;
-    &lt;li&gt;Escucha lo que tengan que decirte, y se paciente. Cuando empiezas en un grupo tendrás muchas ideas y muchas ganas de hacer cosas pero primero escucha y entiende muy bien cuál es su plan de acción.
-    &lt;/li&gt;
-    &lt;li&gt;Procura que tu grupo de interés no te quede muy lejos,o que te quede cerca de la escuela o el trabajo, haz tu vida más fácil si quieres establecer una continuidad con ese proyecto. 
-    &lt;/li&gt;
-    &lt;li&gt;Si no encuentras ningún grupo afín cerca de tí, empieza tú uno. Si estas interesade en empezar un grupo te recomendamos pedir ayuda a grupos que hagan algo similar, elles te darán buenos consejos para que puedas empezar
-    &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Sin nada más que agregar, los esperamos el siguiente esperpéntico y ñoño capítulo de anarconsejos
-&lt;/p&gt;
-¡Hasta la próxima!
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; ¿Y esto qué significa que siguiendo estos anarconsejos las cosas se solucionarán?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot marzo 2022:&lt;/strong&gt; Tal vez, no es una garantía, pero es lo único reducto que le queda a tu especie: Intentar cambiar el sistema antes de que el cambio climático, las crisis energéticas, la desigualdad y las guerras acaben con tu especie.
-&lt;/p&gt;
-&lt;p&gt;Pero te advierto que el tiempo que tienes disponible para cambiar el sistema es muy poco
-Y tener incentivos es complicado porque ver resultados es muy difícil y colaborar con más humanos en estas condiciones es difícil.
-Y cuando logres organizarte con otros humanos lo suficiente para poner cambiar algo en el sistema la policía será usada para reprimirte brutalmente.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; Uffff nomames cabrón todo esto es demasiado intenso nomames, que horror, el cambio será muy difícil de conseguir *llorar*
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Robot marzo 2022:&lt;/strong&gt; Mi labor aqui está terminada
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chinicuil 2010:&lt;/strong&gt; *Llorando tirado en el suelo* Like and suscribe&lt;/p&gt;
-
-&lt;h3&gt;Referencias&lt;/h3&gt;
-&lt;h4&gt;[1] Precariedad en el mundo del arte:&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.elmundo.es/papel/el-mundo-que-viene/2021/05/19/609f0b48fc6c8312728b4595.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;El peor momento para ser artista desde la segunda guerra mundial&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://magnet.xataka.com/en-diez-minutos/musicos-cobran-muy-poco-streaming-solucion-spotify-que-trabajen&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Spotify le pide a los músicos que trabajen más si quieren ganar dinero&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;[2] La mezcla entre políticos y empresarios&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;ooo&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://www.elindependiente.com/economia/2020/10/26/casi-3-000-empresas-en-espana-tienen-participacion-de-politicos-y-altos-cargos/
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Fuentes&lt;/h3&gt;
-&lt;p&gt;ANABEL CUBERO, ¿Todo es Política?,  Socialismo libertario febrero-marzo 2022&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://theanarchistlibrary.org/library/david-graeber-are-you-an-anarchist-the-answer-may-surprise-you&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;DAVID GRAEBER, Are you an Anarchist? &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/eltrevi1992/status/1480887560335335427&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Hilo de twitter muy interesante de Daniel Treviño al respecto de las intersecciones obvias entre el estado, la política y la libertad económica&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4&gt;Sobre lo horrible que es Spotify y la vida para los artistas&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.stereogum.com/2093393/spotify-ceo-daniel-ek-streaming-income/news/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Spotify invierte en tecnología bélica &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://ibero909.fm/blog/musicos-vs-spotify-protestas-31-ciudades-contra-gigante-streaming&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Músicos vs spotify &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.artnet.com/market/artists-make-less-10k-year-1162295&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Resúmen del The Artfinder Independent Art Market Report: 2017&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="economia" /><category term="anarquia" /><summary type="html">Chinicuil 2010: El año es Chinicuil 2010, la ciudad es un lugar ruidoso y húmedo, que huele a una mezcla de comida frita de baja calidad y a cloacas…y saben qué más huele a cloacas: la política. Esto no puede oler peor, corrupción, ineptitud y una maldad que parece salida de un comic de Frank Miller. La política, no me interesa, y cuando me llega a interesar solo me encabrona, me enerva…asi es que prefiero que no me interese, por estos dos motivos:</summary></entry><entry><title type="html">El Anarcofungismo</title><link href="http://localhost:4000/anarcofungismo.html" rel="alternate" type="text/html" title="El Anarcofungismo" /><published>2022-01-23T10:00:00+01:00</published><updated>2022-01-23T10:00:00+01:00</updated><id>http://localhost:4000/anarcofungismo</id><content type="html" xml:base="http://localhost:4000/anarcofungismo.html">&lt;p&gt;A principios de 2021 empecé a notar que mis redes sociales estaban siendo colonizadas por un nuevo tipo de meme. 
-    No era como otro meme que hubiera visto, a primera vista eran memes nihilistas, depresivos y apáticos, pero en el subsuelo escondían un mensaje de esperanza y colaboración radical.
-    &lt;/p&gt;
-
-&lt;p&gt;¿Qué tiene que ver el anarquismo con los hongos? ¿Qué lecciones podemos aprender de estas peculiares criaturas para florecer como especie en las cenizas de la catástrofe ecológica y social? ¿Qué es el anarcofungismo? &lt;/p&gt;
-
-&lt;h3&gt;¿Qué es el anarcofungismo?&lt;/h3&gt;
-&lt;p&gt;
-    El anarcofungismo es una teoría política donde se rechaza las formas tradicionales de comunidad (La familia capitalista hetero-patriarcal homogenea) en favor de sistemas comunitarios, heterogeneos, basados en la reutilización de los desperdicios, que nos haga cuestionarnos de manera radical la diferencia entre ser humano y naturaleza.
-    Donde las producciones en la periferia son la vía y donde es prioritario expandir nuestra mente e imaginar.
-    &lt;/p&gt;
-&lt;p&gt;El anarcofungismo es una teoría política donde se rechaza las formas tradicionales de comunidad (La familia capitalista hetero-patriarcal homogenea) en favor de sistemas comunitarios, heterogeneos, basados en la reutilización de los desperdicios, que nos haga cuestionarnos de manera radical la diferencia entre ser humano y naturaleza.
-    Donde las producciones en la periferia son la vía y donde es prioritario expandir nuestra mente e imaginar.
-    &lt;/p&gt;
-&lt;p&gt;En pocas palabras el anarquismo fúgnico o anarcofungismo es un meme fumado de post-izquierda y como todo meme fumado de post-izquierda necesita mucho texto para poder ser entendido.&lt;/p&gt;
-
-&lt;h3&gt;Manifiesto Anarcofungi&lt;/h3&gt;
-&lt;ol&gt;
-    &lt;li&gt;El anarcofungismo es un movimiento político de filosofía de renacimiento y acción ecológica social, que busca responder la pregunta: ¿Qué viene después del capitaloceno? &lt;/li&gt;
-    
-    &lt;li&gt;Este movimiento no es utópico ni tampoco distópico. Queremos buscar soluciones realistas en una dimensión comunitaria, hay que actuar, y sobre todo: intentar.&lt;/li&gt;
-    &lt;li&gt;Nuestra propuesta es provocativa. No dejamos de reflexionar y actuar en cuanto a la justicia social mientras repensamos el uso de la tecnología y acentuamos nuestras críticas y acciones ecológicas en el capitalismo y las estructuras gemelas que nos mantienen oprimidos, entre ellas: el cis hetero patriarcado, el colonialismo, y toda las reglas sociales absurdas que tenemos impuesta.&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo existe como respuesta crítica a las tradiciones de izquierda que ignoran el cambio climático y la justicia ecológica. &lt;/li&gt;
-    &lt;li&gt;Nuestra propuesta es cambiar radicalmente nuestra relación con nuestra basura, nuestra comida y con otras especies, animales y no, en vez de explotarlas y usarlas sólo para nuestra sobreproducción. &lt;/li&gt;
-    &lt;li&gt;Creemos que es clave crear comunidades y soluciones que sean heterogéneas y diversas, los lugares en el planeta con mayor cantidad de vida son los que tienen más heterogeneidad, y creemos que el capitalismo está matando esa diversidad&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo se auto representa con hongos por qué creemos que en ellos podemos tomar el ejemplo de comunidad radicalmente solidaria.&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo busca superar al capitalismo con vínculos de calidad y ejercicios simbióticos con la naturaleza para lograr una comunidad anárquica avanzada en tecnología y sabia para su propia resistencia.&lt;/li&gt;
-    &lt;li&gt;El &quot;fungi&quot; en &quot;anarcofungi&quot; es por qué el movimiento está completamente inspirado en las relaciones simbióticas de los hongos con los bosques y en el trabajo de autoras como Donna Haraway con el Manifiesto Cyborg y Anna Tsing con El hongo al final del mundo.&lt;/li&gt;
-    &lt;li&gt;Es indispensable que el anarcofungismo salga del internet. Aunque haya nacido ahí, debe ser materializado y practicado en la vida real como uno de tantos métodos para llegar a la libertad.&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo es un movimiento, no una guía de pasos hacia la libertad. Los hongos son una inspiración, y esa inspiración no debe convertirse en dogma ni en policía de prácticas.&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo se trata de actuar aquí y ahora, con la comunidad y los recursos que tenemos cerca.&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo se opone al ecofascismo y cualquier otro discurso que determine por completo que nuestro planeta y nuestras relaciones humanas y con los otros seres vivos, se han podrido. Incluso si así fuera, como los hongos, volveríamos a reintentar restaurarlo una y otra vez.&lt;/li&gt;
-    &lt;li&gt;El anarcofungismo es étnico, indígena, psicodelico, diverso y abierto a cualquier movimiento que aspire a la libertad antifascista.&lt;/li&gt;
-
-&lt;/ol&gt;
-
-&lt;h3&gt;Fuentes&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://monoskop.org/images/f/f3/Haraway_Donna_J_Simians_Cyborgs_and_Women_The_Reinvention_of_Nature.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Donna Haraway | Simians, Cyborgs, and Women&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.e-flux.com/journal/75/67125/tentacular-thinking-anthropocene-capitalocene-chthulucene/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Donna Haraway | Repensando el antropoceno&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UwfJJMaRV_c&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Donna Haraway | Video doctora UNAM sobre el tema&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/news/2006/aug/08/guardianobituaries.usa&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;La respuecta de Bookchin a este argumento es que el cancer es el capitalismo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://andaresdelaciencia.com/2018/05/26/los-humanos-el-001-que-afecta-a-todo-el-planeta/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Porcentajes de animales, datos y gráficas de Alex Richter-Boix (Basado en varios estudios)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.statista.com/statistics/277483/market-value-of-the-largest-internet-companies-worldwide/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Distribución del mercado de internet 2021 &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://climateandcapitalism.com/2011/03/25/murray-bookchin-what-is-social-ecology/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Bookchin Social ecology&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://theanarchistlibrary.org/library/murray-bookchin-society-and-ecology&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Bookchin society and ecology&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.bio.fsu.edu/~outlaw/Fungi1005L/Attributes%20of%20Fungi/Evolution.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Evolution of fungi&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://agriculturers.com/las-plantas-se-comunican-mediante-una-internet-de-hongos/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Las plantas se comunican con otras plantas a através de los hongos&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://fantasticfungi.com/the-mush-room/the-stoned-ape-theory/ &quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;The stoned ape theory&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.popsci.com/article/science/magic-mushrooms-expand-your-mind-and-amplify-your-brains-dreaming-areas-heres-how/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Magic expand your mind&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://medium.com/swlh/what-is-acid-communism-e5c65ecf6188&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Acid Communism&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://raimundoviejo.net/archivos/2032&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Materiales para una hipótesis lisérgica&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.tiltwest.org/wp-content/uploads/2018/08/mushroom-at-the-end-of-the-world_sm.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Mushroom at the end of the world&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://punctumbooks.com/titles/post-memes-seizing-the-memes-of-production/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Post Memes: Seizing the Memes of Production&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="breadtube" /><category term="anarquia" /><summary type="html">A principios de 2021 empecé a notar que mis redes sociales estaban siendo colonizadas por un nuevo tipo de meme. No era como otro meme que hubiera visto, a primera vista eran memes nihilistas, depresivos y apáticos, pero en el subsuelo escondían un mensaje de esperanza y colaboración radical.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=02BnXTTxfxA&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;LA GUERRA PERMANENTE&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="breadtube" /><category term="anarquia" /><summary type="html">Hola que tal muy buenas y bienvenides a Chinicuil, el día de hoy vamos a hablar de este comic de 1986 que se llama Watchmen, en este cómic habla de muchas cosas, pero principalmente habla de dos cosas superhéroes en decadencia y de capa caída Gracias estoy aqui todos los días Y de los relojes y el tiempo,</summary></entry></feed>
