@@ -7,7 +7,7 @@ permalink: /linktree/
 {% for post in site.posts limit:1 %}
 <figure class="card">
     <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
-    <a href="https://youtube.com/watch?v={{ post.urlVideo }}" target="_blank">
+    <a href="{{ post.url | relative_url }}" target="_blank">
         <span class="h3">Último video</span> 
         <span class="content">{{ post.title | escape }}</span>
     </a>
