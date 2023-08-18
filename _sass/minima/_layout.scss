@@ -60,6 +60,10 @@
     display: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
