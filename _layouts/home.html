@@ -20,16 +20,16 @@ layout: default
       </h3>
       {% for post in site.posts limit:1 %}
         <h4>{{ post.title | escape }}</h4>
-        {%- if page.urlVideo -%}
-        <div class="video">
-          <iframe src="https://www.youtube.com/embed/{{ page.urlVideo | relative_url }}" frameborder="0" allowfullscreen></iframe>
-        </div>
-      {%- endif -%}
-      {%- if page.urlAnartist -%}
-        <div class="video">
-          <iframe src="https://video.anartist.org/videos/embed/{{ page.urlAnartist | relative_url }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-        </div>
-      {%- endif -%}
+        {%- if post.urlVideo -%}
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/{{ page.urlVideo | relative_url }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        {%- endif -%}
+        {%- if post.urlAnartist -%}
+          <div class="video">
+            <iframe src="https://video.anartist.org/videos/embed/{{ page.urlAnartist | relative_url }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+          </div>
+        {%- endif -%}
       {% endfor %}
     </div>
     <hr>
