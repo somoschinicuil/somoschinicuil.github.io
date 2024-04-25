@@ -4,7 +4,6 @@ title: Árbol de links
 permalink: /linktree/
 ---
 
-<p>Holi:6 guatafok</p>
 {% for post in site.posts limit:1 %}
 <figure class="card">
     <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
@@ -12,9 +11,6 @@ permalink: /linktree/
         <span class="h3">Último video</span> 
         <span class="content">{{ post.title | escape }}</span>
     </a>
-    {%- if post.tags.tag = minicuil -%}
-    porfavor funciona 
-    {%- endif -%}
 </figure>
 {% endfor %}
 
