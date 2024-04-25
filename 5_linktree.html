@@ -4,7 +4,7 @@ title: Árbol de links
 permalink: /linktree/
 ---
 
-Holi:3
+Holi:4
 {% for post in site.posts limit:1 %}
 <figure class="card">
     <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
@@ -13,9 +13,9 @@ Holi:3
         <span class="content">{{ post.title | escape }}</span>
     </a>
 </figure>
-{%- if page.tags.includes('minicuil') -%}
+{% if page.tags.includes('minicuil') %}
 holiiiii
-{%- endif -%}
+{% endif %}
 {% endfor %}
 
 {% include card.html 
