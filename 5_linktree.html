@@ -4,17 +4,9 @@ title: Árbol de links
 permalink: /linktree/
 ---
 
-holi: 1
-{%  for post in site.tags[page.tag] limit:1 %}
-    {%- if page.tag.title = "Minicuil" -%}
-    <figure class="card">
-        <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
-        <a href="{{ post.url | relative_url }}" target="_blank">
-            <span class="h3">Último video</span> 
-            <span class="content">{{ post.title | escape }}</span>
-        </a>
-    </figure>
-    {%- endif -%}
+holi: 2
+{% for post in site.tags[page.tag] limit:1 %}
+{{ post.title | escape }}
 {% endfor %}
 
 {% include card.html 
