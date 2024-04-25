@@ -4,9 +4,18 @@ title: Árbol de links
 permalink: /linktree/
 ---
 
-holi: 2
-{% for post in site.tags[page.tag] limit:1 %}
-{{ post.title | escape }}
+Holi:3
+{% for post in site.posts limit:1 %}
+<figure class="card">
+    <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
+    <a href="{{ post.url | relative_url }}" target="_blank">
+        <span class="h3">Último video</span> 
+        <span class="content">{{ post.title | escape }}</span>
+    </a>
+</figure>
+{%- if page.tags.includes('minicuil') -%}
+holiiiii
+{%- endif -%}
 {% endfor %}
 
 {% include card.html 
