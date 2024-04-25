@@ -4,7 +4,7 @@ title: Árbol de links
 permalink: /linktree/
 ---
 
-{%  for post in site.tags[page.tag.tag="minicuil"] limit:1 %}
+{%  for post in site.tags[page.tag = "minicuil"] limit:1 %}
 <figure class="card">
     <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
     <a href="{{ post.url | relative_url }}" target="_blank">
