@@ -1,59 +1,59 @@
 ---
 layout: default
 ---
+{%- include header.html -%}
 <main class="page-content" aria-label="Content">
   <div class="wrapper-smol">
-{%- include header.html -%}
-<div class="home">
-    <div class="banner">
-      <h3>
-        {{ page.dopesubtitle | escape }}
-      </h3>
-      {% for post in site.posts limit:1 %}
-        <h2>{{ post.title | escape }}</h2>
-        {%- if post.urlVideo -%}
-          <div class="video">
-            <iframe src="https://www.youtube.com/embed/{{ post.urlVideo }}" frameborder="0" allowfullscreen></iframe>
-          </div>
-        {%- endif -%}
-        {%- if post.urlAnartist -%}
-          <div class="video">
-            <iframe src="https://video.anartist.org/videos/embed/{{ post.urlAnartist }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-          </div>
-        {%- endif -%}
-      {% endfor %}
-    </div>
-    <hr>
-
-    {{ content }}
-
-    {%- if site.posts.size > 0 -%}
-      <p class="h3"><strong>{{ page.list_title | default: "Videos de este Chinicuil con contenido izquierdoso" }}</strong></p>
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li class="snippet">
-          <h3 class="snippet-title">
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
+    <div class="home">
+        <div class="banner">
+          <h3>
+            {{ page.dopesubtitle | escape }}
           </h3>
-          <p>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }} | {{ site.title | escape }}</span></p>
-          <!-- {%- if post.thumbVideo -%}
-            <a href="{{ post.url | relative_url }}">
-              <img src="/assets/img/thumbs/chinicuil-youtuber-{{ post.thumbVideo }}.jpg" alt="{{ post.title | escape }}">
-            </a>
-          {%- endif -%} -->
-          {%- if post.description -%}
-            {{ post.description }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
+          {% for post in site.posts limit:1 %}
+            <h2>{{ post.title | escape }}</h2>
+            {%- if post.urlVideo -%}
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/{{ post.urlVideo }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            {%- endif -%}
+            {%- if post.urlAnartist -%}
+              <div class="video">
+                <iframe src="https://video.anartist.org/videos/embed/{{ post.urlAnartist }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+        <hr>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {%- endif -%}
+        {{ content }}
 
-</div>
-</div>
+        {%- if site.posts.size > 0 -%}
+          <p class="h3"><strong>{{ page.list_title | default: "Videos de este Chinicuil con contenido izquierdoso" }}</strong></p>
+          <ul class="post-list">
+            {%- for post in site.posts -%}
+            <li class="snippet">
+              <h3 class="snippet-title">
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <p>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }} | {{ site.title | escape }}</span></p>
+              <!-- {%- if post.thumbVideo -%}
+                <a href="{{ post.url | relative_url }}">
+                  <img src="/assets/img/thumbs/chinicuil-youtuber-{{ post.thumbVideo }}.jpg" alt="{{ post.title | escape }}">
+                </a>
+              {%- endif -%} -->
+              {%- if post.description -%}
+                {{ post.description }}
+              {%- endif -%}
+            </li>
+            {%- endfor -%}
+          </ul>
+
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        {%- endif -%}
+
+    </div>
+  </div>
 </main>

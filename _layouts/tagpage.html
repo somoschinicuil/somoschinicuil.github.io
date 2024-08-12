@@ -1,27 +1,27 @@
 ---
 layout: default
 ---
+{%- include header.html -%}
 <main class="page-content" aria-label="Content">
   <div class="wrapper-smol">
-{%- include header.html -%}
-<div class="post">
-  <h1 class="page-heading">{{ page.title }}</h1>
-  <ul class="post-list">
-  {% for post in site.tags[page.tag] %}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if post.description -%}
-            {{ post.description }}
-          {%- endif -%}
-    </li>
-  {% endfor %}
-  </ul>
-</div>
-</div>
+    <div class="post">
+      <h1 class="page-heading">{{ page.title }}</h1>
+      <ul class="post-list">
+      {% for post in site.tags[page.tag] %}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              {%- if post.description -%}
+                {{ post.description }}
+              {%- endif -%}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
 </main>
