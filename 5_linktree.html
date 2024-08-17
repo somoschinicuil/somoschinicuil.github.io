@@ -5,67 +5,82 @@ trait: 'links'
 permalink: /linktree/
 ---
 
-{% for post in site.posts limit:1 %}
-<figure class="card">
-    <span class="card-icon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></span>
-    <a href="{{ post.url | relative_url }}" target="_blank">
-        <span class="h3">Último video</span> 
-        <span class="content">{{ post.title | escape }}</span>
-    </a>
-</figure>
-{% endfor %}
+<div class="container_sm">
+    {% for post in site.posts limit:1 %}
+    <section class="chinilink">
+        <article class="chinilink_mini box">
+            <div class="row">
+                <div class="col_6">
+                    <div class="row_n">
+                        <div class="col">
+                            <img class="chinilink_mini_img" src="/assets/img/chininew/link-random-6.png" alt="Imagen de una persona en alto contraste">
+                        </div>
+                        <div class="col">
+                            <h2 class="chinilink_mini_title">Último video</h2>
+                            <p>{{ post.title | escape }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_6 text_r">
+                    <a href="{{ post.url | relative_url }}" target="_blank" class="chinilink_url"><small>{{ include.link }}</small></a>
+                </div>
+            </div>
+        </article>
+    </section>
+    {% endfor %}
 
-{% include card.html 
-    icon_mastodon="true" 
-    name="Mastodon" 
-    content="Ven a Mastodon, con tu ayuda seremos más de 14 personas" 
-    link="https://paquita.masto.host/@chinicuil"  %}
+    {% include card.html 
+        icon_mastodon="true" 
+        name="Mastodon" 
+        content="Ven a Mastodon, con tu ayuda seremos más de 14 personas" 
+        link="https://paquita.masto.host/@chinicuil"  %}
 
-{% include card.html 
-    icon_rss="true" 
-    name="TikTok" 
-    content="Para ver como hago el ridículo en menos de un minuto" 
-    link="https://www.tiktok.com/@chini_cuil" %}
+    {% include card.html 
+        icon_rss="true" 
+        name="TikTok" 
+        content="Para ver como hago el ridículo en menos de un minuto" 
+        link="https://www.tiktok.com/@chini_cuil" %}
 
-{% include card.html 
-    icon_rss="true" 
-    name="Website" 
-    content="Para leer las transcripciones, notas, fuentes y referencias de los videos" 
-    link="https://somoschinicuil.github.io/"%}
+    {% include card.html 
+        icon_rss="true" 
+        name="Website" 
+        content="Para leer las transcripciones, notas, fuentes y referencias de los videos" 
+        link="https://somoschinicuil.github.io/"%}
 
-{% include card.html 
-    icon_rss="true" 
-    name="Medium" 
-    content="Para leer mis faltas de ortografía" 
-    link="https://medium.com/@soychinicuil" %}
+    {% include card.html 
+        icon_rss="true" 
+        name="Medium" 
+        content="Para leer mis faltas de ortografía" 
+        link="https://medium.com/@soychinicuil" %}
 
-{% include card.html 
-    icon_instagram="true" 
-    name="Instagram" 
-    content="Para ver memes" 
-    link="https://www.instagram.com/chini_cuil/"  %}
+    {% include card.html 
+        icon_instagram="true" 
+        name="Instagram" 
+        content="Para ver memes" 
+        link="https://www.instagram.com/chini_cuil/"  %}
 
-{% include card.html 
-    icon_rss="true" 
-    name="Tumblr" 
-    content="Para que envíes a las personas que no quiere ver mis publicaciones" 
-    link="https://somoschinicuil.tumblr.com/" %}
+    {% include card.html 
+        icon_rss="true" 
+        name="Tumblr" 
+        content="Para que envíes a las personas que no quiere ver mis publicaciones" 
+        link="https://somoschinicuil.tumblr.com/" %}
 
-{% include card.html 
-    icon_facebook="true" 
-    name="Facebook" 
-    content="Para que termines viendo más publicidad de la esperada" 
-    link="https://www.facebook.com/somoschinicuil" %}
+    {% include card.html 
+        icon_facebook="true" 
+        name="Facebook" 
+        content="Para que termines viendo más publicidad de la esperada" 
+        link="https://www.facebook.com/somoschinicuil" %}
 
-{% include card.html 
-    icon_twitter="true" 
-    name="Twitter" 
-    content="Cada vez lo uso menos la neta" 
-    link="http://twitter.com/chini_cuil/"  %}
+    {% include card.html 
+        icon_twitter="true" 
+        name="Twitter" 
+        content="Cada vez lo uso menos la neta" 
+        link="http://twitter.com/chini_cuil/"  %}
 
-{% include card.html 
-    icon_youtube="true" 
-    name="Canal de youtube" 
-    content="Para ver los videos del pasado" 
-    link="https://youtube.com/chinicuil" %}
+    {% include card.html 
+        icon_youtube="true" 
+        name="Canal de youtube" 
+        content="Para ver los videos del pasado" 
+        link="https://youtube.com/chinicuil" %}
+</div>
 
