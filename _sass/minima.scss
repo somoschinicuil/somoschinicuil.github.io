@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: 'Zilla Slab', serif !default;
+$base-font-family: monospace !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -10,7 +10,7 @@ $base-line-height: 1.6 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
+$text-color:       #010B0B !default;
 $background-color: #f5c82a !default;
 $brand-color:      #dd2813 !default;
 
@@ -43,6 +43,66 @@ $on-laptop:        850px !default;
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
+
+@font-face {
+  font-family: 'Aktura-Regular';
+  src: url('fonts/aktura/Aktura-Regular.eot');
+  src: url('fonts/aktura/Aktura-Regular.ttf') format('truetype'), 
+          ('fonts/aktura/Aktura-Regular.woff') format('woff'), 
+          ('fonts/aktura/Aktura-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'terminal-grotesque_open';
+  src: url('fonts/terminal/terminal-grotesque_open.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  font-family: $base-font-family;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/*
+************************************************* 
+Fonts 
+**************************************************
+*/
+.FauxFont {
+  font-family: 'Aktura-Regular';
+}
+.FixFont {
+  font-family: 'terminal-grotesque_open';
+}
+.FoxFont {
+  font-family: serif;
+}
+.h1, h1, 
+.h2, h2,
+.h3, h3,
+.h4, h4 {
+  font-family: 'terminal-grotesque_open';
+  font-weight: normal;
+  font-style: normal;
+}
+blockquote {
+  font-family: serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  border-left: 4px solid;
+}
+.auxColor {
+  color: #8E0589; 
+}
+.text_r {
+  text-align: right;
+} 
 
 // Import partials.
 @import
