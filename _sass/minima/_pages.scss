@@ -21,7 +21,9 @@ body.home {
 }
 .dibujines_home {
   text-align: right;
-  max-width: 100%;
+  img {
+    max-width: 100%;
+  }
 }
 .ranastacio {
   max-width: 100%
