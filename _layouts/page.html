@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-{%- include header.html -%}
-<main class="page-content" aria-label="Content">
-    <div class="wrapper-smol">
-    <article class="post">
-      <header class="post-header">
-        <h1 class="post-title">{{ page.title | escape }}</h1>
-      </header>
-      <div class="post-content">
-        {{ content }}
+<header class="headercuil">
+  <div class="container">
+      <div class="row">
+          <div class="col_6">
+            {%- include header.html -%} 
+          </div>
+          <div class="col_6 text_r">
+              <h1 class="chini_title">{{ page.title | escape }}</h1>
+          </div>
       </div>
-    </article>
   </div>
+</header>
+<main class="page-content" aria-label="Content">
+  {{ content }}
 </main>

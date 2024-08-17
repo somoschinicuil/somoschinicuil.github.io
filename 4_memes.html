@@ -1,12 +1,15 @@
 ---
 layout: page
 title: Memes
+trait: 'loop'
 permalink: /memes/
 ---
-<ul class="img-grid">
-{% for image in site.static_files %}
-    {% if image.path contains 'img/memes' %}
-        <li><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></li>
-    {% endif %}
-{% endfor %}
-</ul>
+<main class="mainicuil container" aria-label="Content">
+    <section class="chiniloop masonry">
+    {% for image in site.static_files %}
+        {% if image.path contains 'img/memes' %}
+            <div class="box"><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></div>
+        {% endif %}
+    {% endfor %}
+    </section>
+</main>

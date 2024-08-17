@@ -1,27 +1,34 @@
 ---
 layout: default
+trait: 'loop'
 ---
-{%- include header.html -%}
-<main class="page-content" aria-label="Content">
-  <div class="wrapper-smol">
-    <div class="post">
-      <h1 class="page-heading">{{ page.title }}</h1>
-      <ul class="post-list">
-      {% for post in site.tags[page.tag] %}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              {%- if post.description -%}
-                {{ post.description }}
-              {%- endif -%}
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
+<header class="headercuil">
+  <div class="container">
+      <div class="row">
+          <div class="col_6">
+            {%- include header.html -%} 
+          </div>
+          <div class="col_6 text_r">
+              <h1 class="chiniloop_title">{{ page.title | escape }}</h1>
+          </div>
+      </div>
   </div>
+</header>
+<main class="mainicuil container" aria-label="Content">
+  <section class="chiniloop masonry">
+  {% for post in site.tags[page.tag] %}
+    <article class="chinipost_mini box">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h2>
+          <p class="chinipost_mini_date FauxFont">{{ post.date | date: date_format }}</p>
+          {%- if post.description -%}
+            {{ post.description }}
+          {%- endif -%}
+    </article>
+  {% endfor %}
+  </section>
 </main>

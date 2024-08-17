@@ -1,0 +1,142 @@
+/**
+ * Pages
+ */
+/*
+************************************************* 
+Home 
+**************************************************
+*/
+.logo_home {
+  fill: #8E0589;
+  max-width: 500px;
+  height: auto;
+}
+.heroecuil_container {
+  position: relative;
+}
+.dibujines_home {
+  text-align: right;
+}
+.ranastacio {
+  max-width: 100%
+} 
+@media (min-width: 600px){ 
+  .ranastacio {
+      position: absolute;
+      top: -30px;
+      right: 0;
+  } 
+}
+@media (min-width: 1205px){ 
+  .dibujines_home img {
+      margin-top: -130px;
+      margin-right: -120px;
+      position: relative;
+  }
+}
+/* Menu */
+.menucuil_row {
+  margin-bottom: 1rem;
+}
+.menucuil_row a {
+  margin-right: 1rem;
+}
+@media (max-width: 600px) { 
+  .menucuil_row a {
+      margin-top: 1rem;
+      width: calc(100% - 2rem);
+  }
+  .h_mobile {
+      display: none;
+  }
+}
+
+/*
+************************************************* 
+Post 
+**************************************************
+*/
+.chinipost {
+  margin: 2rem 0 4rem 0
+}
+.chinipost .box {
+  background: #CB34FE;
+  color: #fff;
+}
+.chinipost .box a {
+  color: #fff;
+}
+.chinipost_date {
+  color: #ffcc33;
+}
+.mainicuil {
+  position: relative;
+}
+.post_callthecops {
+  width: 213px;
+  height: auto;
+  position: absolute;
+  top: -60px;
+  right: 0
+}
+.post_frag {
+  width: 88px;
+  height: auto;
+}
+@media (min-width: 600px){ 
+  .post_frag {
+      position: absolute;
+      bottom: 60px;
+  }
+  .chinipost_sidebar {
+      margin-right: 1rem;
+  }
+  .chinipost_date {
+      font-size: 2rem;
+  }
+}
+
+
+/*
+************************************************* 
+Loop 
+**************************************************
+*/
+.chiniloop_title {
+  font-family: monospace;
+}
+.chiniloop .box {
+  border: 1px dashed #010B0B;
+  color: #ffcc33;
+}
+.chinipost_mini_date {
+  font-size: 1.4rem;
+} 
+
+/*
+************************************************* 
+Link 
+**************************************************
+*/
+.chinilink_title,
+.chinilink,
+.chinilink a {
+  color: #ffcc33;
+} 
+.chinilink .box {
+  border: 1px dashed #ffcc33;
+}
+.chinilink_mini_title {
+  font-family: serif;
+  margin-bottom: 0;
+}
+.chinilink .box p {
+  margin-top: 0;
+} 
+.chinilink_mini_img {
+  border-radius: 100%;
+  border: 1px solid #ffcc33;
+  display: inline-block;
+  width: 55px;
+  margin-right: 5px;
+}
