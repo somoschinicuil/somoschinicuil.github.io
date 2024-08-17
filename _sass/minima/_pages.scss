@@ -119,9 +119,15 @@ body.loop {
 .chiniloop_title {
   font-family: monospace;
 }
-.chiniloop .box {
-  border: 1px dashed #010B0B;
-  color: #ffcc33;
+.chiniloop  {
+  .box {
+    border: 1px dashed #010B0B;
+    color: #ffcc33;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  } 
 }
 .chinipost_mini_date {
   font-size: 1.4rem;
