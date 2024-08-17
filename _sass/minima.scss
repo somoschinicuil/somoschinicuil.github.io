@@ -43,7 +43,7 @@ $on-laptop:        850px !default;
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
-/*
+
 @font-face {
   font-family: 'Aktura-Regular';
   src: url('fonts/aktura/Aktura-Regular.eot');
@@ -60,7 +60,6 @@ $on-laptop:        850px !default;
   font-weight: normal;
   font-style: normal;
 }
-*/
 body {
   color: $text-color;
   margin: 0;
