@@ -43,6 +43,9 @@ body.home {
   }
 }
 /* Menu */
+.menucuil {
+  margin-top: 1rem;
+}
 .menucuil_row {
   margin-bottom: 1rem;
 }
@@ -56,6 +59,10 @@ body.home {
   }
   .h_mobile {
       display: none;
+  }
+  .menucuil .btn_main {
+    transform: rotate(90deg);
+    margin-top: 4rem;
   }
 }
 
