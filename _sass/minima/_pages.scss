@@ -19,15 +19,19 @@ body.home {
 .heroecuil_container {
   position: relative;
 }
+.heroecuil_slogan {
+  padding-top: 0.8rem;
+  font-size: 1.3rem;
+}
+.ranastacio {
+  max-width: 100%
+} 
 .dibujines_home {
   text-align: right;
   img {
     max-width: 100%;
   }
 }
-.ranastacio {
-  max-width: 100%
-} 
 @media (min-width: 600px){ 
   .ranastacio {
       position: absolute;
@@ -53,6 +57,7 @@ body.home {
   }
   &:first-child {
     border-bottom: 1px dashed #8E0589;
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 600px) { 
