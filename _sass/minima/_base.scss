@@ -18,6 +18,7 @@ button.btn {
   display: inline-block;
 }
 .btn_main {
+  border: 1px solid #FF2309;
   font-family: 'Aktura-Regular';
   font-size: 36px;
   color: #FF2309;
@@ -200,22 +201,15 @@ Oldstyles
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
+  margin: 1rem 0;
   width: 100%;
-  text-align: $table-text-align;
-  color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $grey-color-light;
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    color: #ffcc33;
+    border: 1px solid #ffcc33;
+    background: #8E0589;
   }
-  th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
-  }
-  td {
-    border: 1px solid $grey-color-light;
+  a {
+    color: #ffcc33;
   }
 }
 
