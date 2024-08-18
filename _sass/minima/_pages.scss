@@ -48,9 +48,12 @@ body.home {
 }
 .menucuil_row {
   margin-bottom: 1rem;
-}
-.menucuil_row a {
-  margin-right: 1rem;
+  a {
+    margin-right: 1rem;
+  }
+  &:first-child {
+    border-bottom: 1px dashed #8E0589;
+  }
 }
 @media (max-width: 600px) { 
   .menucuil_row a {
