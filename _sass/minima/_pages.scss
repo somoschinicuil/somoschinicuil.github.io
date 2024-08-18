@@ -79,14 +79,17 @@ body.post {
   background-image: url(img/chininew/post-meshpest.gif);
 }
 .chinipost {
-  margin: 2rem 0 4rem 0
-}
-.chinipost .box {
-  background: #CB34FE;
-  color: #fff;
-}
-.chinipost .box a {
-  color: #fff;
+  margin: 2rem 0 4rem 0;
+  hr {
+    background-color: #fff;
+  }
+  .box {
+    background: #CB34FE;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
 }
 .chinipost_date {
   color: #ffcc33;
