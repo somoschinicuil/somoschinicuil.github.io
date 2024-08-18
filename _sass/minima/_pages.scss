@@ -20,7 +20,6 @@ body.home {
   position: relative;
 }
 .heroecuil_slogan {
-  padding-top: 0.8rem;
   font-size: 1.3rem;
 }
 .ranastacio {
@@ -54,10 +53,6 @@ body.home {
   margin-bottom: 1rem;
   a {
     margin-right: 1rem;
-  }
-  &:first-child {
-    border-bottom: 1px dashed #8E0589;
-    padding-bottom: 1rem;
   }
 }
 @media (max-width: 600px) { 
