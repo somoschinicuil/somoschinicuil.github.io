@@ -60,9 +60,12 @@ body.home {
   .h_mobile {
       display: none;
   }
-  .menucuil .btn_main {
+  .heroecuil_top .btn_main {
+    font-size: 2rem;
+    position: absolute;
+    left: -2rem;
+    bottom: -8rem;
     transform: rotate(90deg);
-    margin-top: 4rem;
   }
 }
 
