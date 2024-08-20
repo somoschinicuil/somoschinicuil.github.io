@@ -16,12 +16,10 @@ layout: default
   <div class="container">
       <div class="row">
           <div class="col_6">
-              <div class="brandingcuil branding_top">
-                  <img src="/assets/img/chininew/0-layout-avatar.png" alt="Avatar chinicuil (Una criatura saliendo de un diminuto culito)" class="headercuil_avatar">
-              </div>
+            {%- include header.html -%} 
           </div>
-          <div class="col_6">
-
+          <div class="col_6 text_r">
+              <h1 class="chini_title">{{ page.title | escape }}</h1>
           </div>
       </div>
   </div>
