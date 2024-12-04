@@ -24,6 +24,9 @@ hr {
     height: 1px;
     background: var(--font-color);
 }
+.center {
+    text-align: center ;
+}
 
 .container {
     max-width: 680px;
