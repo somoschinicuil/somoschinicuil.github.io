@@ -79,16 +79,9 @@ h1, h2, h3 {
 .header a {
     text-decoration: none;
 }
-.nav {
-    text-align: right;
-}
-.nav a {
-    display: inline-block;
-    margin-left: 1rem;
-}
 .lang_toggle svg {
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
 }
 
 @media (min-width: 768px) {
@@ -96,6 +89,13 @@ h1, h2, h3 {
         column-count: 2;
         column-gap: 1rem;
         column-rule: none;
+    }
+    .nav {
+        text-align: right;
+    }
+    .nav a {
+        display: inline-block;
+        margin-left: 1rem;
     }
     .flex {
         display: flex;
