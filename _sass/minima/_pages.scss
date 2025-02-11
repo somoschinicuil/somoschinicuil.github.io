@@ -71,22 +71,6 @@ body.home {
     transform: rotate(90deg);
   }
 }
-/************************************************* 
-Fediverso page 
-**************************************************
-*/
-body.fediverso {
-  background-color: #060606;
-}
-.fediverso .headercuil_logo,
-.fediverso .footercuil {
-  color: #ffcc33;
-  fill: #ffcc33;
-}
-.fediverso .chinipost .box {
-  background: none;
-  border: 1px solid #ffcc33;
-}
 
 /*
 ************************************************* 
@@ -143,7 +127,26 @@ body.post {
       margin: 0;
   }
 }
+/************************************************* 
+Fediverso page 
+**************************************************
+*/
+body.fediverso {
+  background-color: #060606;
 
+  .headercuil_logo,
+  .footercuil {
+    color: #ffcc33;
+    fill: #ffcc33;
+  }
+  .chinipost .box {
+    background: none;
+    border: 1px solid #ffcc33;
+    .box {
+      border: 1px dashed #fff;
+    }
+  }
+}
 
 /*
 ************************************************* 
