@@ -83,6 +83,15 @@ body.post {
 }
 .chinipost {
   margin: 2rem 0 4rem 0;
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
   hr {
     background-color: #fff;
   }
@@ -176,12 +185,6 @@ body.tecnofeudal {
   .chinipost {
     h1,h2 {
       font-family: 'Aktura-Regular';
-    }
-    h1 {
-      font-size: 3rem;
-    }
-    h2 {
-      font-size: 2.5rem;
     }
     .box {
       background: #FF2309;
