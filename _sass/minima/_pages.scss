@@ -148,13 +148,11 @@ body.fediverso {
   }
 }
 .fedi_logos {
-  
   position: relative;
   width: 130px;
   height: 130px;
   margin: 0 auto;
   padding-bottom: 0.5rem;
-
   img {
     border-radius: 100px;
     position: relative;
@@ -167,9 +165,18 @@ body.fediverso {
     right: 0;
     z-index: 2;
   }
-
 }
-
+/************************************************* 
+Tecnofeudal
+**************************************************
+*/
+body.tecnofeudal {
+  background-color: #669999;
+  background-image: url(img/chininew/varufaker.gif);
+  .chinipost {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
 /*
 ************************************************* 
 Loop 
