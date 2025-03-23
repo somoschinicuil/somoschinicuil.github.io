@@ -253,3 +253,26 @@ body.links {
   width: 55px;
   margin-right: 5px;
 }
+/*
+************************************************* 
+alert insta 
+**************************************************
+*/
+.alert {
+  
+  background: $brand-color;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+  strong {
+    display: block;
+    font-size: 16px;
+  }
+
+}
+.d-none {
+  display: none;
+}
