@@ -33,10 +33,10 @@ layout: default
                   <hr>
                 {%- endif -%}
                 {%- if page.urlAnartist -%}
-                  <div class="alert d-none" id="alert-insta">
+                  <!-- <div class="alert d-none" id="alert-insta">
                     <strong>Instagram está bloqueando este video</strong>
                     Tendrás que abrir este link en un navegador externo (usando el menú de tres puntos que aparece en alguna de las esquinas de tu pantalla)
-                  </div>
+                  </div> -->
                   <div class="video">
                     <iframe src="https://video.anartist.org/videos/embed/{{ page.urlAnartist }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
                   </div>
@@ -64,10 +64,10 @@ layout: default
   </section>
   <img class="post_callthecops layertop" src="/assets/img/chininew/post-call-cops.png" alt="Rana malosa con una patineta">
 </main>
-<script>
+<!-- <script>
   var isInstagram = navigator.userAgent.match(/instagram/i);
   if (isInstagram) {
     const el = document.querySelector('#alert-insta');
     el.classList.remove("d-none");
   }
-</script>
+</script> -->
