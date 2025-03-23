@@ -158,6 +158,9 @@ body.fediverso {
       }
     }
   }
+  .post_frag {
+    display: none;
+  }
   @media (min-width: 600px) {
     .chinipost_container {
       display: block;
