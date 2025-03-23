@@ -16,8 +16,8 @@ layout: default
 </header>
 <main class="mainicuil container" aria-label="Content">
   <section class="chinipost" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="row_r">
-          <div class="col_9">
+      <div class="row_r chinipost_container">
+          <div class="col_9 chinipost_main">
               <header class="chinipost_header box">
                   <h1 itemprop="name headline">{{ page.title | escape }}</h1>
                   <meta itemprop="image" content="https://somoschinicuil.github.io/assets/img/thumbs/chinicuil-youtuber-{{ page.thumbVideo }}.jpg">
@@ -47,7 +47,7 @@ layout: default
                 <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
               </article>
           </div>
-          <div class="col_3">
+          <div class="col_3 chinipost_aside">
               <div class="chinipost_sidebar box">
                   <p class="chinipost_date FauxFont"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

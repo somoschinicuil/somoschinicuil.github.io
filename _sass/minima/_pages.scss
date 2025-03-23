@@ -153,6 +153,18 @@ body.fediverso {
     border: 1px solid #ffcc33;
     .box {
       border: 1px dashed #fff;
+      h3 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  @media (min-width: 600px) {
+    .chinipost_container {
+      display: block;
+    }
+    .chinipost_main,
+    .chinipost_aside {
+      width: 100%
     }
   }
 }
@@ -166,7 +178,7 @@ body.fediverso {
     border-radius: 100px;
     position: relative;
   }
-  .privativa {
+  .logo_mini_ {
     width: 50px;
     height: 50px;
     position: absolute;
