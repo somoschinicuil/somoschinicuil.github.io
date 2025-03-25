@@ -165,9 +165,11 @@ body.fediverso {
     .chinipost_container {
       display: block;
     }
-    .chinipost_main,
-    .chinipost_aside {
+    .chinipost_main {
       width: 100%
+    }
+    .chinipost_aside {
+      width: 50%;
     }
   }
 }
