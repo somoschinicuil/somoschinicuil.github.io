@@ -37,6 +37,12 @@ body.home {
 .icon_btn__ {
   display: inline-block;
 }
+.menucuil__secondary {
+  .btn_submenu {
+    border-color: #010B0B;
+    color: #010B0B
+  }
+}
 @media (min-width: 600px){ 
   .ranastacio {
       position: absolute;
