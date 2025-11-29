@@ -44,6 +44,10 @@ layout: default
                 {%- endif -%}
         
                 {{ content }}
+                {%- if page.urlVideo -%}
+                 <hr>
+                 <img src="/assets/img/thumbs/chinicuil-youtuber-{{ page.thumbVideo }}.jpg" alt="{{ page.title | escape }}">
+                {%- endif -%}
                 <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
               </article>
           </div>
