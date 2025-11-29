@@ -46,7 +46,8 @@ layout: default
                 {{ content }}
                 {%- if page.thumbVideo -%}
                  <hr>
-                 <img src="/assets/img/thumbs/chinicuil-youtuber-{{ page.thumbVideo }}.jpg" alt="{{ page.title | escape }}">
+                 <img src="/assets/img/thumbs/chinicuil-youtuber-{{ page.thumbVideo }}.jpg" alt="{{ page.title | escape }}" >
+                 <meta property="og:image" content="https://somoschinicuil.github.io/assets/img/thumbs/chinicuil-youtuber-{{ page.thumbVideo }}.jpg" />
                 {%- endif -%}
                 <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
               </article>
