@@ -270,18 +270,16 @@ body.links {
   border: 1px dashed #ffcc33;
   padding: 2rem;
   margin-bottom: 2rem;
+  color: #ffcc33;
+  text-decoration: none;
   p {
     margin-top: 0;
     text-decoration: underline;
   } 
-  a {
-    color: #ffcc33;
-    text-decoration: none;
-  }
 }
 .chinilink_mini_title {
   font-family: serif;
-  margin-bottom: 0;
+  margin: 0;
 }
 .chinilink_mini_img {
   border-radius: 100%;
