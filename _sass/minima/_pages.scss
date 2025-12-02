@@ -286,6 +286,17 @@ body.links {
 .link_ {
   display: block;
 }
+@media (max-width: 600px) { 
+  .chinilink {
+    * {
+      text-align: center;
+    }
+  }
+  .chinilink_mini_title {
+    margin: 0.5rem 0;
+  }
+}
+
 /*
 ************************************************* 
 alert insta 
