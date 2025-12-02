@@ -275,27 +275,27 @@ body.links {
 }
 .chinilink_mini_title {
   font-family: serif;
-  margin-bottom: 0;
+  text-decoration: none;
 }
-.chinilink .box 
 .chinilink_mini_img {
   border-radius: 100%;
   border: 1px solid #ffcc33;
   display: inline-block;
   width: 55px;
-  margin-right: 5px;
+  margin-right: 1rem;
 }
 .link_ {
   display: block;
 }
 @media (max-width: 600px) { 
   .chinilink {
-    * {
-      text-align: center;
-    }
+    text-align: center;
   }
   .chinilink_mini_title {
     margin: 0.5rem 0;
+  }
+  .chinilink_mini_img {
+    margin-right: 0;
   }
 }
 

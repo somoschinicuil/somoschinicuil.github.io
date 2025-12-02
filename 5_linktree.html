@@ -8,24 +8,17 @@ permalink: /linktree/
 <div class="container_sm">
     {% for post in site.posts limit:1 %}
     <section class="chinilink">
-        <article class="chinilink_mini box">
-            <div class="row">
-                <div class="col_6">
-                    <div class="row_n">
-                        <div class="col">
-                            <img class="chinilink_mini_img" src="/assets/img/chininew/link-random-6.png" alt="Imagen de una persona en alto contraste">
-                        </div>
-                        <div class="col">
-                            <h2 class="chinilink_mini_title">Último contenido</h2>
-                            <p>{{ post.title | escape }}</p>
-                        </div>
-                    </div>
+        <a href="{{ post.url }}" target="_blank" class="chinilink_mini box">
+            <div class="row_flex">
+                <div class="col">
+                    <img class="chinilink_mini_img" src="/assets/img/chininew/link-random-6.png" alt="Imagen de una persona en alto contraste">
                 </div>
-                <div class="col_6 text_r">
-                    <a href="{{ post.url }}" target="_blank" class="chinilink_url"><small>{{ post.url | relative_url }}</small></a>
+                <div class="col">
+                    <h2 class="chinilink_mini_title">Último contenido</h2>
+                    <p>{{ post.title | escape }}</p>
                 </div>
             </div>
-        </article>
+        </a>
     </section>
     {% endfor %}
 
