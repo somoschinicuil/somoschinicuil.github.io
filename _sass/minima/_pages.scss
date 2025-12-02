@@ -266,11 +266,9 @@ body.links {
 .chinilink a {
   color: #ffcc33;
 } 
-.chinilink {
+.chinilink_mini {
   display: block;
-  &.box{
-    border: 1px dashed #ffcc33;
-  }
+  border: 1px dashed #ffcc33;
   p {
     margin-top: 0;
   } 
