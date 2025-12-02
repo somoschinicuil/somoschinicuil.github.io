@@ -1,25 +1,18 @@
 <section class="chinilink">
-    <article class="chinilink_mini box">
-        <div class="row">
-            <div class="col_6">
-                <div class="row_flex">
-                    <div class="col">
-                        {% if include.icon_twitter %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-1.png" alt="Imagen de una persona en alto contraste">{% endif %}
-                        {% if include.icon_instagram %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-2.png" alt="Imagen de una persona en alto contraste">{% endif %}
-                        {% if include.icon_rss %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-3.png" alt="Imagen de una persona en alto contraste">{% endif %}
-                        {% if include.icon_facebook %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-3.png" alt="Imagen de una persona en alto contraste">{% endif %}
-                        {% if include.icon_youtube %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-4.png" alt="Imagen de una persona en alto contraste">{% endif %}
-                        {% if include.icon_mastodon %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-5.png" alt="Imagen de una persona en alto contraste">{% endif %}
-                    </div>
-                    <div class="col">
-                        <h2 class="chinilink_mini_title">{{ include.name }} <em><small>{{ include.lang }}</small></em></h2>
-                        <p>{{ include.content }}</p>
-                    </div>
-                </div>
+    <a href="{{ include.link }}" target="_blank" class="chinilink_mini box">
+        <div class="row_flex">
+            <div class="col">
+                {% if include.icon_twitter %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-1.png" alt="Imagen de una persona en alto contraste">{% endif %}
+                {% if include.icon_instagram %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-2.png" alt="Imagen de una persona en alto contraste">{% endif %}
+                {% if include.icon_rss %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-3.png" alt="Imagen de una persona en alto contraste">{% endif %}
+                {% if include.icon_facebook %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-3.png" alt="Imagen de una persona en alto contraste">{% endif %}
+                {% if include.icon_youtube %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-4.png" alt="Imagen de una persona en alto contraste">{% endif %}
+                {% if include.icon_mastodon %}<img class="chinilink_mini_img" src="/assets/img/chininew/link-random-5.png" alt="Imagen de una persona en alto contraste">{% endif %}
             </div>
-            <div class="col_6 text_r">
-                <a href="{{ include.link }}" target="_blank" class="chinilink_url"><small>{{ include.link }}</small></a>
+            <div class="col">
+                <h2 class="chinilink_mini_title">{{ include.name }} <em><small>{{ include.lang }}</small></em></h2>
+                <p>{{ include.content }}</p>
             </div>
         </div>
-    </article>
+    </a>
 </section>

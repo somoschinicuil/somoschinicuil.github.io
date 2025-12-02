@@ -266,16 +266,20 @@ body.links {
 .chinilink a {
   color: #ffcc33;
 } 
-.chinilink .box {
-  border: 1px dashed #ffcc33;
+.chinilink {
+  display: block;
+  &.box{
+    border: 1px dashed #ffcc33;
+  }
+  p {
+    margin-top: 0;
+  } 
 }
 .chinilink_mini_title {
   font-family: serif;
   margin-bottom: 0;
 }
-.chinilink .box p {
-  margin-top: 0;
-} 
+.chinilink .box 
 .chinilink_mini_img {
   border-radius: 100%;
   border: 1px solid #ffcc33;
