@@ -261,21 +261,23 @@ body.links {
   background-image: url(img/chininew/link-pelink.png);
   background-attachment: scroll;
 }
-.chinilink_title,
-.chinilink,
-.chinilink a {
-  color: #ffcc33;
-} 
 .chinilink_mini {
   display: block;
   border: 1px dashed #ffcc33;
+  padding: 2rem;
+  margin-bottom: 2rem;
   p {
     margin-top: 0;
+    text-decoration: underline;
   } 
+  a {
+    color: #ffcc33;
+    text-decoration: none;
+  }
 }
 .chinilink_mini_title {
   font-family: serif;
-  text-decoration: none;
+  margin-bottom: 0;
 }
 .chinilink_mini_img {
   border-radius: 100%;
