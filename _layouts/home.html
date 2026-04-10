@@ -194,12 +194,13 @@ layout: default
 <section class="biocuil">
     <div class="container">
       {{ content }}
+      <hr>
+      <h2>Todas las categorías</h2>
+        {% for page in site.pages %}
+            {% if page.exclude %}
+                <small><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></small>
+            {% endif %}
+        {% endfor %}
    </div>
-   <h2>Todas las categorías</h2>
-    {% for page in site.pages %}
-        {% if page.exclude %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-    {% endfor %}
 </section>
 </main>
